@@ -20,7 +20,7 @@ pentru a găsi codul secret format din:
   și căutați numele personajului în franceză în textul paginii accesate. (hint: atenție la majuscule!)
 
 4. Adăugați numele în franceză la sfârșitul adresei `https://tintin.fandom.com/fr/wiki/`
-și rulați pentru URL-ul astfel obținut următoarele trei teste:  
+și rulați pentru URL-ul astfel obținut următoarele trei teste:
 
 a.  
 [https://http.app/?ref=http.dev](https://http.app/?ref=http.dev) ca să aflați dacă roboții sunt permiși. Ce fel de roboți?  
@@ -32,25 +32,25 @@ c.
 [https://www.whatsmyip.org/http-compression-test/](https://www.whatsmyip.org/http-compression-test/) ca să aflați dacă este permisă compresia HTTP.  
 Citiți mai multe despre HTTP compression aici: [https://http.dev/compression](https://http.dev/compression)  
 
-5. Pentru fiecare test de mai sus, considerăm că obținem valoarea 0 dacă testul eșuează și 1 dacă are succes. Folosiți codul de stare (status code) `s` primit la rularea testului de la exercițiul 4, punctul a, împreună cu rezultatele obținute la exercițiul 4 pentru punctele a, b, c, și calculați următorul număr:  
+6. Pentru fiecare test de mai sus, considerăm că obținem valoarea 0 dacă testul eșuează și 1 dacă are succes. Folosiți codul de stare (status code) `s` primit la rularea testului de la exercițiul 4, punctul a, împreună cu rezultatele obținute la exercițiul 4 pentru punctele a, b, c, și calculați următorul număr:  
 `n = (a+b)*s + s/(a+2b+c) + c`.  
 Care este titlul codului de stare corespunzător lui n?  
 Vizitați biblioteca de coduri de stare `https://http.cat/n` (nu uitați să înlocuiți n cu valoarea lui) și folosiți-vă abilitățile de detectivi web pentru a identifica personajul din imagine. Puncte bonus dacă aflați numele pisicii.
 
-6. Revenind la personajul descris pe pagina pe care tocmai ați testat-o la exercițiul 4. Identificați cel mai bun prieten al acestuia. Adăugați numele prietenului la începutul adresei`mudhalla.net`. Ce se întâmplă dacă la adresa obținută adaugăm și prefixul 'www'? Folosiți testerul 
+7. Revenind la personajul descris pe pagina pe care tocmai ați testat-o la exercițiul 4. Identificați cel mai bun prieten al acestuia. Adăugați numele prietenului la începutul adresei`mudhalla.net`. Ce se întâmplă dacă la adresa obținută adaugăm și prefixul 'www'? Folosiți testerul 
 [https://http.app/?ref=http.dev](https://http.app/?ref=http.dev) pentru a compara rezultatele celor două cereri HTTP (cu/fără 'www').  
 Repetați testul și pentru adresa de la exercițiul 2. Cum explicați diferențele în acest caz? Citiți mai multe aici: [https://en.wikipedia.org/wiki/World_Wide_Web#WWW_prefix](https://en.wikipedia.org/wiki/World_Wide_Web#WWW_prefix)
 
-7. Folosiți tool-ul *Network* al browserului (firefox: More Tools/Web Developer Tools/Network; chrome: More Tools/Developer Tools/Network) pentru a identifica ce tipuri de metode HTTP sunt invocate la accesarea linkului de la exercițiul 2. 
+8. Folosiți tool-ul *Network* al browserului (firefox: More Tools/Web Developer Tools/Network; chrome: More Tools/Developer Tools/Network) pentru a identifica ce tipuri de metode HTTP sunt invocate la accesarea linkului de la exercițiul 2. 
 
    Ce diferențe sunt între metodele `GET` și `POST`? Citiți mai multe aici: 
    [https://www.w3schools.com/tags/ref_httpmethods.asp](https://www.w3schools.com/tags/ref_httpmethods.asp) 
    și aici (despre vulnerabilitățile metodelor HTTP): 
    [https://appcheck-ng.com/http-verbs-security-risks#](https://appcheck-ng.com/http-verbs-security-risks#)
 
-8. Folosiți tool-ul *Inspector* din browser pentru a identifica fontul folosit în website-ul de la exercițiul 6.   
+9. Folosiți tool-ul *Inspector* din browser pentru a identifica fontul folosit în website-ul de la exercițiul 6.   
 
-9. Folosind editoarele de HTML și CSS integrate în *Developer Tools*, modificați website-ul pentru a ascunde meniul, schimba titlul, culorile etc.
+10. Folosind editoarele de HTML și CSS integrate în *Developer Tools*, modificați website-ul pentru a ascunde meniul, schimba titlul, culorile etc.
 
 #### PREMIUM. Exerciții bonus
 
