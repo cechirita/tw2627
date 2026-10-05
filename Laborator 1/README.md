@@ -19,7 +19,7 @@ pentru a găsi codul secret format din:
   `https://www.tintin.com/en/characters/?#character`  
   și căutați numele personajului în franceză în textul paginii accesate. (hint: atenție la majuscule!)
 
-4. Adăugați numele în franceză la sfârșitul adresei `https://tintin.fandom.com/fr/wiki/`
+4. Adăugați numele în franceză la sfârșitul adresei `https://www.tintinpedia.fr/wiki/`
 și rulați pentru URL-ul astfel obținut următoarele trei teste:
 
 a.  
